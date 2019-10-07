@@ -1,11 +1,5 @@
-# learnning-Testing-CircleCI-Travis-Coveralls-Maintainability
-#### learnning about:
-- Testing
-- Circleci
-- Travis 
-- Coveralls
-- Maintainability
-<br><br>
+# classroom-APIs
+
 [![CircleCI](https://circleci.com/gh/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability.svg?style=svg)](https://circleci.com/gh/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability)
 [![Build Status](https://travis-ci.org/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability.svg?branch=master)](https://travis-ci.org/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability/badge.svg?branch=master)](https://coveralls.io/github/key-joshua/learn-Testing-Circleci-Travis-Coveralls-Maintainability?branch=master)

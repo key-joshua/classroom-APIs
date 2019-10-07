@@ -1,7 +1,7 @@
 {
   "name": "classroom-APIs",
   "version": "1.0.0",
-  "description": "classroom-APIs",
+  "description": "classroom-APIs this is simple application which built by using NODEJS",
   "main": "connection.js",
   "scripts": {
     "lint": "eslint",
