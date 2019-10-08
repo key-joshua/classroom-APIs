@@ -10,7 +10,7 @@ const basePath = '/api/v1';
 
 app.use(basePath, authapp);
 
-app.listen(process.env.PORT || 3000,function(){
-    console.log('server is running on port 3000');
+app.listen(process.env.PORT || 2000,function(){
+    console.log('server is running on port 2000');
   });
   export default app;

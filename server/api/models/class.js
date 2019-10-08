@@ -1,7 +1,15 @@
-import pool from '../config/connect_db';
+// import pool from '../config/connect_db';
+const { pool } = require('../../../config');
 class studentClass {
-
- async findOne_into_DB(id){
+  
+   async insert_into_DB(new_student){
+    const { Name, Marks, Level} = new_student;
+    const text = `INSERT INTO tautorial.class( Student_Name, student_Marks, student_Level, createdDate, modifiedDate ) VALUES($1, $2, $3, $4, $5) returning *`;
+    const values = [Name, Marks, Level, new Date(),  new Date() ];
+    const { rows } = await pool.query(text, values);
+    return rows;
+  }
+async findOne_into_DB(id){
     const text = `SELECT * FROM tautorial.class WHERE id = $1`;
     const values = [id];
     const { rows } = await pool.query(text, values);

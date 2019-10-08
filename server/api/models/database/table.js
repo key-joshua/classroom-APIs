@@ -13,5 +13,5 @@ CREATE TABLE tautorial.class(
 
 const queryString = ` ${student_class} `;
 pool.query(queryString)
-.then(() => console.log("Hy Joshua You are Successfully Created Table users  "))
+.then(() => console.log(`Hy Joshua You are Successfully runned this command " ${student_class} " `))
 .catch(error => console.log(error));

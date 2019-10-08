@@ -11,5 +11,5 @@ const student1 = `INSERT INTO tautorial.class( Student_Name, student_Marks, stud
 const queryString = `${student1} ${student}`;
 
 pool.query(queryString)
-.then(() => console.log("Hy Joshua You are Successfully Inserted student "))
+.then(() => console.log(`Hy Joshua You are Successfully runned this command " ${queryString} " `))
 .catch(error => console.log(error));
